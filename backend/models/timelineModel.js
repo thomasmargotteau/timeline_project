@@ -13,9 +13,15 @@ const timelineSchema = new Schema({
         type:Number,
         required:true
     },
-    event:[{
+    events:[{
         type: Schema.Types.ObjectId, 
         ref: 'Event'
+    }],
+    nomsEvents:[{
+        type: String
+    }],
+    datesEvents:[{
+        type: Date
     }]
 },{timestamps:true})
 

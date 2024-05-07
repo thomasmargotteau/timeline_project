@@ -8,7 +8,8 @@ const eventSchema = new Schema({
         required:true
     },
     place:String,
-    people:[{type:String}]
+    people:[{type:String}],
+    date:Date
 },{timestamps:true})
 
 module.exports = mongoose.model('Event',eventSchema)
