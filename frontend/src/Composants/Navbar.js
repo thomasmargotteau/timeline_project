@@ -5,7 +5,6 @@ function Navbar(){
             <div className="links">
                 <a href="/">Home</a>
                 <a href="/create">New Event</a>
-                <a href="/delete">Delete Event</a>
             </div>
         </nav>
     )
