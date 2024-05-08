@@ -13,6 +13,6 @@ const eventSchema = new Schema({
     place:String,
     people:[{type:String}],
     date:Date
-},{timestamps:true})
+})
 
 module.exports = mongoose.model('Event',eventSchema)
