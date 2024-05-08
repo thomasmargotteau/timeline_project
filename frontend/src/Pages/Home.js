@@ -10,6 +10,12 @@ function Home() {
     { id: 3, date: "2024-03-02", title: "Event 3", content: "Test!" },
     { id: 4, date: "2024-02-02", title: "Event 4", content: "Test!" },
     { id: 5, date: "2024-02-01", title: "Event 5", content: "Test!" },
+    { id: 6, date: "2024-02-01", title: "Event 5", content: "Test!" },
+    { id: 4, date: "2024-02-02", title: "Event 4", content: "Test!" },
+    { id: 5, date: "2024-02-01", title: "Event 5", content: "Test!" },
+    { id: 6, date: "2024-02-01", title: "Event 5", content: "Test!" },
+    { id: 6, date: "2024-02-01", title: "Event 5", content: "Test!" },
+
   ];
 
   const handleShowContent = (content) => {

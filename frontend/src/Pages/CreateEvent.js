@@ -20,8 +20,9 @@ function CreerEvent(){
   {/* Add more input fields as needed */}
   <button type="submit">Add Event</button>
 
-            </form>
-        </div>
+        </form>
+    </div>
+    
     );
 }
 

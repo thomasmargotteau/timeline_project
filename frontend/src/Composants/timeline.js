@@ -6,6 +6,7 @@ const TimelineItem = ({ date, title, onClick, children }) => {
       <div className="timeline-content">
         <h3>{date}</h3>
         <h4>{title}</h4>
+        <button>Test</button>
         {children}
       </div>
     </div>
