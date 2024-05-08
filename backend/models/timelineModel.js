@@ -17,7 +17,7 @@ const timelineSchema = new Schema({
         type: Schema.Types.ObjectId, 
         ref: 'Event'
     }],
-    nomsEvents:[{
+    namesEvents:[{
         type: String
     }],
     datesEvents:[{
