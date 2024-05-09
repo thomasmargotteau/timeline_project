@@ -89,10 +89,65 @@
   width: 100%;
   background: #F6F6F6;
   border-radius: 10px;
+  cursor: pointer;
   border: 2px solid #071F32;
   margin: 1%;
 }
 
 .timeline-item:hover{
-  background-color: #3fad5d  ;
+  background-color: #3fad5d ;
+}
+
+.bouton{
+  padding: 2px 2px;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  border: 2px solid #071F32;
+  cursor: pointer; 
+}
+
+.bouton:hover{
+  background-color: #7A0423 ;
+  color:#F6F6F6;
+
+}
+
+form {
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  margin: 0 auto; 
+}
+
+form h2 {
+  color:#071F32; 
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px; 
+  border: 2px solid #071F32 ; 
+  border-radius: 10px; 
+}
+
+form button {
+  text-align: center;
+  background-color: #F6F6F6; 
+  color: #071F32; 
+  padding: 10px 20px; 
+  border: 2px solid #071F32;
+  border-radius: 10px; 
+  cursor: pointer; 
+  
+}
+
+form button:hover {
+  background-color: #3fad5d; 
 }
