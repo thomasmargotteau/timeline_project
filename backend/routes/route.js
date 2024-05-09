@@ -5,10 +5,9 @@ const {
     getEvent,
     deleteEvent,
     updateEvent,
-    createTimeline,
-    getTimeline,
-    deleteTimeline,
-    updateTimeline
+    //createTimeline,
+    getTimeline
+    //deleteTimeline
 } = require('../controllers/controllers')
 
 const router=express.Router()
@@ -32,12 +31,9 @@ router.patch('/event/:id',updateEvent)
 router.get('/timeline/',getTimeline)
 
 // POST a new timeline
-router.post('/timeline/', createTimeline)
+//router.post('/timeline/', createTimeline)
 
 // DELETE a timeline
-router.delete('/timeline/:id',deleteTimeline)
-
-// UPDATE a timeline
-router.patch('/timeline/:id',updateTimeline)
+//router.delete('/timeline/:id',deleteTimeline)
 
 module.exports = router

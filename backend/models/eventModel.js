@@ -10,8 +10,6 @@ const eventSchema = new Schema({
         type:String,
         required:true
     },
-    place:String,
-    people:[{type:String}],
     date:Date
 })
 
