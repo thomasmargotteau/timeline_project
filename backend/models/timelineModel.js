@@ -7,16 +7,11 @@ const timelineSchema = new Schema({
         type:String,
         required:true
     },
-    description:String,
-    people:[{type:String}],
-    nbEvents:{
-        type:Number,
-        required:true
-    },
-    event:[{
-        type: Schema.Types.ObjectId, 
-        ref: 'Event'
+    events:[{
+        id:String,
+        name:String,
+        date:Date
     }]
-},{timestamps:true})
+})
 
 module.exports = mongoose.model('Timeline',timelineSchema)
