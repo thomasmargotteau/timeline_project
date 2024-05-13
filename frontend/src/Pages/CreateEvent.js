@@ -4,7 +4,8 @@ function CreerEvent(){
     return(
     <div className='Interface-creation'>
         <h2>Ajouter un event:</h2>
-        <form>
+        <form method='post'action='/api/event'>
+
             <div>
                 <label htmlFor="title">Event Title:</label>
                 <input type="text" id="title" name="title" />
